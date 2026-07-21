@@ -28,6 +28,15 @@ Buzzer
 - Positive -> GPIO27
 - Negative -> GND
 
+Red LED
+- Positive -> GPIO25
+- Negative -> GND
+
+
+Green LED
+- Positive -> GPIO26 
+- Negative -> GND
+
 ## Library Versions
 - DHTesp
 - Adafruit SSD1306
