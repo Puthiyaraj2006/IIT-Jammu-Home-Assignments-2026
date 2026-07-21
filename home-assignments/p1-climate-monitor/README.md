@@ -11,13 +11,27 @@
 - Breadboard
 - Jumper Wires
 
-## Wiring Summary
-- DHT11 DATA -> GPIO4
-- OLED SDA -> GPIO21
-- OLED SCL -> GPIO22
-- Red LED -> GPIO25
-- Green LED -> GPIO26
-- Buzzer -> GPIO27
+## Wiring Diagram 
+
+DHT11
+- VCC -> 3.3V
+- GND -> GND
+- DATA -> GPIO4
+
+OLED
+- VCC -> 3.3V
+- GND -> GND
+- SDA -> GPIO21
+- SCL -> GPIO22
+
+Buzzer
+- Positive -> GPIO27
+- Negative -> GND
+
+## Library Versions
+- DHTesp
+- Adafruit SSD1306
+- Adafruit GFX
 
 ## How to Run
 1. Install DHTesp library.
